@@ -81,9 +81,4 @@ return
  IfWinNotActive AHK_exe outlook.exe
  Run, outlook.exe
  return
-
-; Login Next Finance
-!f::
-Send, finance{Tab}finance{Enter}
-return
  
